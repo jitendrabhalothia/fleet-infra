@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: ghcr.io/stefanprodan/podinfo:6.0.0-fake
+        image: ghcr.io/stefanprodan/podinfo:6.0.0
         imagePullPolicy: IfNotPresent
         ports:
         - name: http
