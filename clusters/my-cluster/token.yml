@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: github
+  namespace: flux-system
+data:
+  token: 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
